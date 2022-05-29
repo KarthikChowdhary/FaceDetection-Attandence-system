@@ -1,0 +1,272 @@
+/* Page 1 */
+
+/* Title section */
+
+.school-title{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 31px 0 31px 123px;
+}
+
+.elearn-text{
+  color: #27DEBF;
+}
+
+#title-bar .container-fluid{
+  background-color: #E9FCF9;
+}
+
+.right-links{
+  display: inline-block;
+  font-size: 1.25rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  position: absolute;
+}
+
+.sign-in{
+  right: 80px;
+  top: 31px;
+}
+
+.contact-us{
+  right: 196px;
+  top: 31px;
+}
+
+.profile{
+  right: 80px;
+  top: 31px;
+}
+
+/* Login section */
+
+.School-titleline{
+  font-size: 3rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 40%;
+  padding: 40px 0 0 123px;
+}
+
+.left-box{
+  font-family: "Poppins";
+  padding: 0 0 0 123px;
+}
+
+.login-tagline{
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 30px 0 40px;
+  color: #1C1C1C;
+}
+
+.admission-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.password-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.fpassword-text{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #333333;
+  padding: 0 0 0 195px;
+}
+
+.login-image{
+  width: 40%;
+  position: absolute;
+  top: 140px;
+  right: 50px;
+}
+
+
+.btn-grad {
+   font-size: 1.5rem;
+   background-image: linear-gradient(to right, #27D7BA 0%, #31FFDC  100%);
+   padding: 10px 35px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /* footer section */
+
+ .footer-section{
+   background-color: #E9FCF9;
+   text-align: center;
+   padding: 3% 0;
+ }
+
+ .page1{
+   margin-top: 130px;
+ }
+
+ .school-copyright{
+   font-family: "poppins";
+   font-weight: 300;
+ }
+
+ .footer-icon{
+   margin: 0 5px 40px;
+ }
+
+ .phone-icon{
+   position: relative;
+   right: 58px;
+ }
+
+ .tel-no{
+   position: relative;
+   left: 10px;
+   bottom: 22px;
+ }
+
+
+
+/* page 2 */
+
+.Title-line{
+  margin: auto;
+  padding: 40px 0;
+  color: #27D7BA;
+  width: 50%;
+  text-align: center;
+}
+
+.big-title{
+  font-size: 2.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* cards section */
+
+.card-grid{
+  padding: 0 15% 5%;
+}
+
+.card-body{
+  font-family: "poppins";
+}
+
+.card-points{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1C1C1C;
+}
+
+.card-icon{
+  margin: 20px 10px;
+}
+
+.card-tagline{
+  font-style: "Poppins";
+  font-weight: 400;
+  color: #1C1C1C;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.card-title{
+  color: #27D7BA;
+  font-size: 1.5rem;
+}
+
+.card-title: hover{
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+}
+
+.logout{
+  margin-top: 30px;
+}
+
+/* page 3 */
+
+/* scheduled tests section */
+
+#scheduled-tests .container-fluid{
+  padding: 3% 0 3% 130px;
+}
+
+.subheading-title{
+  padding: 0 0 2%;
+}
+
+.heading-title{
+  padding: 3% 0 0 130px;
+}
+.scheduledtests-title, .upcomingtests-title, .ongoingtests-title{
+  font-family: "poppins";
+  font-weight: 600;
+}
+
+.card-box{
+  background-color: #E9FCF9;
+  border: 0;
+  width: 20rem;
+}
+
+.page3{
+  margin-top: 130px;
+}
+
+.start-now{
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+}
+
+/* page -4 */
+
+.top-heading{
+  font-family: "poppins";
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.title-line{
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.start-now-2{
+  font-size: 2rem;
+  font-family: "poppins";
+  font-weight: 600;
+  font-style: italic;
+  margin: 3% auto;
+}

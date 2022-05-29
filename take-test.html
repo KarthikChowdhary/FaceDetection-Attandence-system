@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Confirm your identity</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <!-- javascript links -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src='js/face-api.min.js'></script>
+  <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+
+  <!-- Google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!--style sheets -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/face-detection.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="top-heading">
+      <h1 class="title-line">Dear student</h1>
+      <h1 class="title-line">Confirm your identity</h1>
+    </div>
+
+    <div class="container mt-1">
+      <div class="row">
+        <div class="col-12 col-md-4 col-xl-3 align-top">
+          <div class="row mb-3">
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch">
+                <input type="checkbox" id="webcam-switch">
+                <i></i> Webcam </label>
+              <button id="cameraFlip" class="btn d-none"></button>
+            </div>
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch disabled">
+                <input type="checkbox" disabled id="detection-switch">
+                <i></i> Detect Face </label>
+            </div>
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch disabled">
+                <input type="checkbox" disabled id="box-switch">
+                <i></i> Bounding Box </label>
+            </div>
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch disabled">
+                <input type="checkbox" disabled id="landmarks-switch">
+                <i></i> Landmarks </label>
+            </div>
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch disabled">
+                <input type="checkbox" disabled id="expression-switch">
+                <i></i> Expression </label>
+            </div>
+            <div class="col-md-10 col-6 form-control">
+              <label class="form-switch disabled">
+                <input type="checkbox" disabled id="age-gender-switch">
+                <i></i> Age & Gender </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-xl-9 align-top" id="webcam-container">
+          <div class="loading d-none">
+            Loading Model
+            <div class="spinner-border" role="status">
+              <span class="sr-only"></span>
+            </div>
+          </div>
+
+          <div id="video-container">
+            <video id="webcam" autoplay muted playsinline></video>
+          </div>
+          <div id="errorMsg" class="col-12 alert-danger d-none">
+            Fail to start camera <br>
+            1. Please allow permission to access camera. <br>
+            2. If you are browsing through social media built in browsers, look for the ... or browser icon on the right top/bottom corner, and open the page in Sarafi (iPhone)/ Chrome (Android)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="startnow-button">
+      <button class="btn btn-grad start-now-2" type="button" name="button">Start now</button>
+    </div>
+  </main>
+  <script src="js/face-detection.js"></script>
+</body>
+
+</html>
